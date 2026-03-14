@@ -8,3 +8,4 @@ def minus(x):
 
 print(minus(a))
 #testing kom
+print("heihei")
