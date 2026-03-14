@@ -7,3 +7,4 @@ def minus(x):
     return start - slutt
 
 print(minus(a))
+#testing kom
