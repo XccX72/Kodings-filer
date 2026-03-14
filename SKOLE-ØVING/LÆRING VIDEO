@@ -1,0 +1,39 @@
+import math
+# for 2 variabler
+ 
+ 
+ 
+ 
+x = float(input("Gi en verdi for x variabelen din - "))
+y = float(input("Gi en verdi for y variabelen din - "))
+
+
+v_x = str(input("Skal variabel x være opphøyd, rot, logaritme eller ingenting - ")). lower()
+if v_x == "opphøyd":
+    v_x_o = float(input("Hvilken verdi skal tallet være opphøyd i?"))
+elif v_x == "kvadratrot":
+    v_x_k = float(input("Hvilken verdi skal roten være? "))
+elif v_x == "logaritme":
+    v_x_lg = float(input("Hva er grunntallet i logaritmen? "))
+elif v_x == "ingenting":   
+    v_x_i = print("OK, variabel x forblir samme verdi!") 
+else:
+    print("CALC 0.2 forsto ikke hva du skrev. Prøv på nytt!")
+
+v_y = str(input("Skal variabel y være opphøyd, rot, logaritme eller ingenting - ")). lower()
+if v_y == "opphøyd":
+    v_y_o = float(input("Hvilken verdi skal tallet være opphøyd i?"))
+elif v_y == "kvadratrot":
+    v_y_k = float(input("Hvilken grad skal roten være?"))
+elif v_y == "logaritme":
+    v_y_lg = float(input("Hva er grunntallet i logaritmen?"))
+elif v_y == "ingenting":
+    print("OK, variabel Y forblir samme verdi!")
+else:
+    print ("CALC 0.2 forsto ikke hva du skrev. Prøv på nytt!")
+
+po = str(input("Skal X eller Y være først i 'ligningen'")). lower()
+if po == "x":
+
+
+ print("CALC 0.2 forsto ikke hva du skrev. Prøv på nytt!")

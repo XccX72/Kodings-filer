@@ -1,0 +1,57 @@
+#Dato - 6.12.24
+
+
+#> = tast ALT + 62
+#< = tast Alt + 60
+
+ 
+#String = Plain text 
+#Eksempel = "Jeg er 20" - Alt i "" er string
+#\n gjør sånn at det bak kommer i neste linje
+#Eksempel = print("Jeg er en\napekat")
+#print Versjob blir 
+# ("Jeg er en
+# apekkat")
+#\" i en String skriver ut "
+#.upper() gjør det foran til store bokstaver
+#.isupper() sjekker om variabel er skrevet med store bokstaver og hvis ja kommer det "True", nei blir det "False"
+#print(len(variabel)) vil sjekke hvor mange bokstaver det er i den
+#print(variabel.index(verdi)) 
+#Vil finne verdien i variabelen
+#.replace gjør det samme som .index men bytter ut og trenger (variabel.replace("Old Str", "New Str"))
+
+
+#Numbers
+#(10 % 3) er at 10/3, men resten som da blir 1
+#(10//3) lager HELL TALL som da blir 3
+#print(str(tall_variabel, "str")) - tall_variabel og str i samme print MÅ ha str foran tall_variabel
+#(abs(negativ_tall_variabel)) abs = absolutt verdi
+#(pow(3, 2)) = 3^2 = 9
+#(max/min(4, 6)) vi enten gi ut det største eller minste verdi
+#(round(3.4)) runder av taller som blir 3
+#"from math import *" gir oss mange flere matte funskjoner
+#(floor/ceil(3.4)) runder opp til det laveste/høyeste verdien
+#(sqrt(36)) ta kvadrarot så da blir det 6
+
+
+#input
+#x = input("spørsmålet ditt") - person skriver inn noe som fyller x sin verdi
+#int omgjør str til tall verdi med heltall
+#float omgjør str til tall verdi med desimalltall
+
+
+#Bulyan Value = True eller False
+#Eksempel = "variabel = False" eller "variabel = True"
+
+
+
+
+The plan 
+
+setter hvilken x og y verdi
+
+if operasjon som bestemmer om du skal ha sqrt eller pow på x og y verdi
+
+Velger matte operasjon (+/*-)
+
+et svar til slutt
